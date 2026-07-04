@@ -1,14 +1,14 @@
-@mixin padding {
-  --lgd-comp-button-filled-padding-vertical: 8px;
-  --lgd-comp-button-filled-padding-horizontal: 8px;
+@mixin padding { 
+  --lgd-comp-button-filled-padding-vertical: 8px; 
+  --lgd-comp-button-filled-padding-horizontal: 16px;
 }
 
 @mixin min-size {
-  --lgd-comp-button-filled-min-width: 96px;
+  --lgd-comp-button-filled-min-width: 80px;
 }
 
 @mixin border-radius {
-  --lgd-comp-button-filled-border-radius: var(--lgd-sys-border-radius-medium);
+  --lgd-comp-button-filled-border-radius: var(--lgd-sys-border-radius-small);
 }
 
 @mixin all {

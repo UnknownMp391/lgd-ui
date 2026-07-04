@@ -1,8 +1,14 @@
 @mixin body {
   --lgd-sys-text-size-body: 24px;
-  --lgd-sys-text-line-height-body: 2.5rem;
+  --lgd-sys-text-line-height-body: 1.6;
+}
+
+@mixin label-big {
+  --lgd-sys-text-size-label-big: 24px;
+  --lgd-sys-text-line-height-label-big: 1;
 }
 
 @mixin all {
   @include body;
+  @include label-big;
 }
