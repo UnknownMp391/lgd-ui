@@ -5,9 +5,14 @@ import FilledButton from '../components/button/FilledButton.vue';
 ---
 
 <Layout>
-  <FilledButton >是</FilledButton>
-  <FilledButton fullWidth>是</FilledButton>
-
+  <h2>LGD UI</h2>
+  <h2>罗小黑风格组件库</h2>
+  <div class="line">
+    <FilledButton type="secondary">是</FilledButton>
+    <div class="gap"></div>
+    <FilledButton type="tertiary">否</FilledButton>
+  </div>
+  <hr/>
   <FilledButton type="primary">是</FilledButton>
   <FilledButton type="primary" fullWidth>是</FilledButton>
   <FilledButton type="secondary">是</FilledButton>
@@ -17,5 +22,11 @@ import FilledButton from '../components/button/FilledButton.vue';
 </Layout>
 
 <style lang="scss">
+.line {
+  display: flex;
 
+  .gap {
+    flex: 1;
+  }
+}
 </style>
