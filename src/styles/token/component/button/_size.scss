@@ -1,10 +1,10 @@
 @mixin padding {
-  --lgd-comp-button-filled-padding-vertical: 8px;
-  --lgd-comp-button-filled-padding-horizontal: 8px;
+  --lgd-comp-button-filled-padding-vertical: 6px;
+  --lgd-comp-button-filled-padding-horizontal: 6px;
 }
 
 @mixin min-size {
-  --lgd-comp-button-filled-min-width: 96px;
+  --lgd-comp-button-filled-min-width: 80px;
 }
 
 @mixin border-radius {
