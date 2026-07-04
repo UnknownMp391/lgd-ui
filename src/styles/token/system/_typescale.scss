@@ -1,0 +1,8 @@
+@mixin body {
+  --lgd-sys-text-size-body: 24px;
+  --lgd-sys-text-line-height-body: 2.5rem;
+}
+
+@mixin all {
+  @include body;
+}

@@ -1,0 +1,38 @@
+---
+
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <header></header>
+    <main><slot></slot></main>
+    <footer></footer>
+  </body>
+</html>
+
+<style lang="scss">
+@use '../styles/token/main' as lgd-main;
+
+@font-face {
+  font-family: 'KNMaiyuan';
+  src: url('/fonts/KNMaiyuan-Regular.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+}
+
+html {
+  @include lgd-main.all;
+
+  body {
+    font-family: 'KNMaiyuan', sans-serif;
+  }
+}
+</style>
